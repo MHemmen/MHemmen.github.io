@@ -125,6 +125,21 @@ body, html {
     text-align: justify;
     display: flex;
 }
+
+@media only screen and (max-width: 600px) {
+    .content {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .imgCropp{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+    .flexwrapper p{
+        margin: 0px;
+    }
+}
 .content-1 {
 
 }
