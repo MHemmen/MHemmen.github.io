@@ -1,6 +1,8 @@
 $(document).ready(function(){
     scroll();
     $(window).scroll(scroll);
+    $(document).scroll(scroll);
+
 
     function scroll(){
         $('.content-2 .entry, .content-3 .entry').each( function(i){
